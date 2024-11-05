@@ -19,7 +19,7 @@ void main() async {
 
       // Loop through each user and print uid, first_name, and last_name
       for (var user in users) {
-        print('${user['id']}: ${user['first_name']} ${user['last_name']}');
+        print('${user['uid']}: ${user['first_name']} ${user['last_name']}');
       }
     } else {
       // Handle non-200 status codes here
